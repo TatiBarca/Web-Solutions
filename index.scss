@@ -1,0 +1,124 @@
+$primary-color:white;
+$second-color:#333;
+$third-color: #eaeaea;
+$fourth-color:#2690d4;
+$fifth-color:#000;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.section1 {
+    background: url('/images/img.png') center center / cover no-repeat;
+    color: white;
+        div {
+            padding: 5% 25%;
+                p {
+                    margin: 10px 0;
+                }
+        }
+
+        .button {
+            display: inline-block;
+            background-color: $second-color;
+            border: 1px solid $primary-color;
+            padding: 20px 35px;
+            margin-top: 15px;
+        }
+}
+.section2 {
+    background-color: $third-color;
+    padding: 4% 25%;
+
+    p {
+        margin-top: 40px;
+    }
+    
+}
+
+.section3 {
+    display: flex;
+    padding: 2% 25%;
+    background-color: $second-color;
+
+    .devSection {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        background-color: $primary-color;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        div {
+            padding: 20px;
+        }
+
+        h4 {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 200px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.section4 {
+    padding: 3% 25%;
+    
+        p {
+            margin-top: 20px;
+        }
+}
+
+.section5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+    .contacts {
+        background-color: $fourth-color;
+        color: $primary-color;
+        padding: 15px 20px 15px;
+    
+        a {
+            display: inline-block;
+            margin: 35px 0;
+        }
+    }
+
+        .aboutCompany {
+            background-color: $second-color;
+            color: $primary-color;
+            padding: 15px 20px  50px;
+        }
+    
+        h3 {
+            margin: 20px 0;
+        }
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $fifth-color;
+    color: $primary-color;
+    padding: 30px 0;
+
+        a {
+            color: blue;
+            
+            &:hover {
+                color: green;
+            }
+        }
+}

@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.section1 {
+  background: url("/images/img.png") center center/cover no-repeat;
+  color: white;
+}
+.section1 div {
+  padding: 5% 25%;
+}
+.section1 div p {
+  margin: 10px 0;
+}
+.section1 .button {
+  display: inline-block;
+  background-color: #333;
+  border: 1px solid white;
+  padding: 20px 35px;
+  margin-top: 15px;
+}
+
+.section2 {
+  background-color: #eaeaea;
+  padding: 4% 25%;
+}
+.section2 p {
+  margin-top: 40px;
+}
+
+.section3 {
+  display: flex;
+  padding: 2% 25%;
+  background-color: #333;
+}
+.section3 .devSection {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  background-color: white;
+}
+.section3 .devSection:last-child {
+  margin-right: 0;
+}
+.section3 .devSection div {
+  padding: 20px;
+}
+.section3 .devSection h4 {
+  margin: 20px 0;
+}
+.section3 .devSection img {
+  max-width: 100%;
+  max-height: 200px;
+}
+.section3 .devSection p {
+  margin-bottom: 15px;
+}
+
+.section4 {
+  padding: 3% 25%;
+}
+.section4 p {
+  margin-top: 20px;
+}
+
+.section5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section5 .contacts {
+  background-color: #2690d4;
+  color: white;
+  padding: 15px 20px 15px;
+}
+.section5 .contacts a {
+  display: inline-block;
+  margin: 35px 0;
+}
+.section5 .aboutCompany {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px 50px;
+}
+.section5 h3 {
+  margin: 20px 0;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #000;
+  color: white;
+  padding: 30px 0;
+}
+footer a {
+  color: blue;
+}
+footer a:hover {
+  color: green;
+}
+
+/*# sourceMappingURL=index.css.map */
